@@ -1,7 +1,7 @@
 import { FreshContext, Handlers } from "$fresh/server.ts";
 import axios from "npm:axios";
-import DeletePersonaje from "../components/DeletePersonaje.tsx"
 
+import Deletepersonaje from "../components/Deletepersonaje.tsx";
 
 export const handler: Handlers={
     DELETE: async(req: Request,ctx: FreshContext)=>{
@@ -38,7 +38,7 @@ export const handler: Handlers={
 
 const Page=()=>{
     return(
-        <DeletePersonaje />
+        <Deletepersonaje />
     )
 }
 export default Page;

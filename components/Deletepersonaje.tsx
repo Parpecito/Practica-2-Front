@@ -1,7 +1,7 @@
 import { FunctionComponent } from "preact";
 
 
-const DeletePersonaje: FunctionComponent=()=>{
+const Deletepersonaje: FunctionComponent=()=>{
     return(
         <form action="/delete"  method=""class="deleteForm">
             <h1>Eliminar personaje</h1>
@@ -12,4 +12,4 @@ const DeletePersonaje: FunctionComponent=()=>{
 
     )
 }
-export default DeletePersonaje;
+export default Deletepersonaje;
