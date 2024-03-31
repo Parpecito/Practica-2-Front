@@ -1,0 +1,45 @@
+.HeroeNamecontainer {
+    display: flex;
+    width: 2000px;
+    padding: 20px;
+    margin: 10px;
+    background-color:rgb(167, 251, 223);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column;
+        margin-right: 20px;
+        color: rgb(37, 160, 0);
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 10px 0;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+        background-color:floralwhite ;
+        border-radius: 15px;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(16, 211, 236);
+        color:rgb(183, 23, 189);
+        font-size: 70px;
+        white-space: nowrap;
+    }
+}
+
+
+.HeroeNamecontainer:hover { 
+    box-shadow: 0 8px 16px 0 rgb(8, 228, 74); 
+}
+  
